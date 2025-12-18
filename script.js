@@ -1,9 +1,4 @@
-/**
- * Calculates the most efficient way to make change using USD quarters, dimes, nickels, and pennies.
- *
- * @param {number} amount - The amount of monetary change in cents (0 < amount < 100).
- * @returns {object} An object with properties q, d, n, and p representing the number of each coin.
- */
+
 function makeChange(amount) {
     let remainingAmount = amount;
     
